@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headContainer {
+    max-width: 100%;
+    max-height: 30%;
+    font-family: helvetica;
+    font-size: 34px;
+    line-height: 50px;
+    background-color: white;
+    margin: 5%;
+    padding: 2% 5% 5% 5%;
+}
+
+.redClick {
+    background-color: red;
+    max-width: 150px;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 18px 50px 18px 50px;
+    margin-right: 25px;
+}
+.blueClick {
+    background-color: blue;
+    max-width: 150px;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 18px 50px 18px 50px;
+}
+
+.bodyContainer {
+
+    background-color: white;
+    overflow: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imgBox {
+    background-image: url(https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg);
+    background-color: darkgray;
+    background-position: center;
+    background-size: 50%;
+    max-width: 100%;
+    padding-top: 1000px;
+    margin: 5%;
+
+}
+.textBox {
+    font-size: 34px;
+    font-family: helvetica;
+    padding: 2% 5% 5% 5%;
+}
+
+.footerContainer {
+    background-color: darkgray;
+    color: white;
+    font-size: 25px;
+    padding: 50px;
+}
+
+.footerContainer p {
+    float: right;
+    margin: 25px;
+
+}
