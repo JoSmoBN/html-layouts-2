@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: 0 0
+}
+
+.headerDiv {
+    padding: 2%;
+    background-color: black;
+}
+
+.headerDiv p {
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    margin: 2%;
+    float: left;
+}
+
+.bodyDiv {
+    margin: 5%;
+}
+
+.imgBox {
+    background-color: lightgray;
+    padding: 150px;
+}
+
+h1 {
+    font-family: helvetica;
+    font-size: 50px;
+}
+
+.footerDiv {
+    padding: 5%;
+    background-color: black;
+}
+
+.two-column {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 60px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 60px; /* Firefox */
+  column-gap: 60px;
+  margin: 2%;
+}
